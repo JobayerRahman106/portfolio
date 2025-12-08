@@ -1,9 +1,16 @@
+import { BrowserRouter, Routes, Route } from "react-router";
+import HomePage from "./pages/HomePage"
+import CommonLayout from "./components/CommonLayout";
 function App() {
 
 
   return (
     <>
-      <h1>Sayed Jobayer Rahman</h1>    
+      <Routes>
+        <Route path="/" element={<CommonLayout />}>
+          <Route path="/" element={<HomePage />} />
+        </Route> 
+      </Routes>    
     </>
   )
 }
