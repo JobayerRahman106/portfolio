@@ -13,7 +13,7 @@ const Skill = () => {
     <div className='flex justify-between items-center py-20'>
         <div>
             <h4 className='text-[18px] leading-7 font-semibold text-transform: uppercase text-[#e8ba13]'>I'm expert on</h4>
-            <h2 className='text-[48px] leading-14 font-bold text-transform: uppercase text-[#38bcf7] mt-3 tracking-widest '>lets work <br /> togethter</h2>
+            <h2 className='text-[48px] leading-15 font-bold text-transform: uppercase text-[#38bcf7] mt-3 tracking-widest '>lets work <br /> togethter</h2>
             <p className='max-w-2xl text-white text-base leading-7 font-normal my-10'> Are you looking for a passionate and skilled MERN stack developer to turn your ideas into reality? Let's collaborate to create something extraordinary! Whether you need a modern web application, a robust backend solution, or a full-stack project from scratch, I'm here to assist you.
             Let’s connect and transform your vision into a digital reality. Reach out to kick off our journey of building something remarkable together!</p>
             <div> 
