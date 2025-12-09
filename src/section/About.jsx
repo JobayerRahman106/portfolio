@@ -3,9 +3,9 @@ import AboutImg from '../assets/image/about.png'
 
 const About = () => {
   return (
-    <div className='flex justify-between items-center py-20'>
+    <div className='flex justify-between items-center mt-32 py-20'>
         <div >
-            <img className='w-2xl mx-auto rounded-full ' src={AboutImg} alt="aboutimg" />
+            <img className='w-xs mx-auto rounded-xl ' src={AboutImg} alt="aboutimg" />
         </div>
         <div className='max-w-[650px]'>
             <h2 className='text-5xl font-extrabold text-transform: uppercase leading-12 text-[#1b719c]'>About Me</h2>
