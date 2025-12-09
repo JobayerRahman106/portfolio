@@ -15,7 +15,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div> 
-        <button className='border border-solid py-2 px-6 text-white border-teal-700 cursor-pointer'>Contact Me</button> 
+        <button className='border-none py-2 px-6 text-white bg-gradient-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Contact Me</button>
       </div>
     </div>
   )
