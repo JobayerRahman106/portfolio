@@ -9,7 +9,7 @@ import BannerImg from "../assets/image/banner.png"
 
 const Banner = () => {
   return (
-    <div className='flex justify-between items-end '>
+    <div className='flex justify-between items-end mt-12'>
         <div>
             <h1 className='font-extrabold text-6xl text-transform: uppercase leading-16 text-[#1b719c]'>
                 I'm Jobayer <br /> Rahman
@@ -21,9 +21,6 @@ const Banner = () => {
                 <Link to="https://github.com/JobayerRahman106"> <FaGithubSquare /> </Link>
                 <Link to="https://www.linkedin.com/in/jobayerrahmanofficial/"> <FaLinkedin /> </Link>
             </div>
-            {/* <div className='mt-8'> 
-                <button className='border-none py-2 px-6 text-white bg-gradient-to-r from-green-400 to-teal-700 cursor-pointer'>Download Resume</button> 
-            </div> */}
         </div>
         <div>
             <img className='w-sm mx-auto rounded-full' src={BannerImg} alt="bannerimg" />

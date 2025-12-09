@@ -3,7 +3,7 @@ import AboutImg from '../assets/image/about.png'
 
 const About = () => {
   return (
-    <div className='flex justify-between items-center mt-32 py-20'>
+    <div className='flex justify-between items-center mt-24 py-20'>
         <div >
             <img className='w-xs mx-auto rounded-xl ' src={AboutImg} alt="aboutimg" />
         </div>
