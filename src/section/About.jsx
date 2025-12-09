@@ -13,8 +13,9 @@ const About = () => {
 
             <p className='text-base leading-6 text-white text-justify  mt-6'>I specialize in Front-End Development,focusing on creating responsive, high-performance applications in React.js. I also WordPress and Shopify website development</p>
             <div className='mt-8'> 
-            <button className='border-none py-2 px-6 text-white bg-gradient-to-r from-green-400 to-teal-700 cursor-pointer'>Download Resume</button> 
-        </div>
+            <button className='border-none py-2 px-6 text-white bg-gradient-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Download Resume</button> 
+          </div>
+
         </div>
 
         
