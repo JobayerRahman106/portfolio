@@ -7,7 +7,7 @@ const Qualification = () => {
     <div className='py-20'>
         <div>
             <h2 className='text-5xl font-semibold text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400  to-sky-900 uppercase'>Educational Qualifications</h2>
-            <p className='max-w-3xl mx-auto text-center text-white mt-6'>My educational background reflects a commitment to growth and learning, building a strong foundation for future opportunities. This journey has equipped me with knowledge, skills, and the drive to excel.</p>
+            <p className='max-w-3xl mx-auto text-center text-gray-400 mt-6'>My educational background reflects a commitment to growth and learning, building a strong foundation for future opportunities. This journey has equipped me with knowledge, skills, and the drive to excel.</p>
         </div>
 
 
@@ -32,7 +32,7 @@ const Qualification = () => {
 
                 <div>
                     <h3 className='text-2xl font-semibold text-transparent bg-clip-text bg-linear-to-r from-green-400  to-teal-700'>Diploma in Computer Science and Technology</h3>
-                    <h4 className='text-xl font-medium  text-transparent bg-clip-text bg-linear-to-r from-yellow-400  to-yellow-700 mt-2'> Dinajpur Polytechnic Institute </h4>
+                    <h4 className='text-xl font-medium text-[#38bcf7]  mt-2'> Dinajpur Polytechnic Institute </h4>
                     <h5 className='text-sm text-gray-400 py-2'>Dinajpur Sadar, Dinajpur</h5>
                     <h6 className='text-sm text-gray-400'>2018 - 2022</h6>
                 </div>
