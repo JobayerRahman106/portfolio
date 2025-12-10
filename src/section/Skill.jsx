@@ -17,7 +17,7 @@ const Skill = () => {
             <p className='max-w-2xl text-white text-base leading-7 font-normal my-10'> Are you looking for a passionate and skilled MERN stack developer to turn your ideas into reality? Let's collaborate to create something extraordinary! Whether you need a modern web application, a robust backend solution, or a full-stack project from scratch, I'm here to assist you.
             Let’s connect and transform your vision into a digital reality. Reach out to kick off our journey of building something remarkable together!</p>
             <div> 
-                <button className='border-none py-2 px-6 text-white bg-gradient-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Hire Me Now</button>
+                <button className='border-none py-2 px-6 text-white bg-linear-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Hire Me Now</button>
             </div>
         </div>
 
