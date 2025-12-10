@@ -4,7 +4,7 @@ import DiplomaImg from '../assets/image/diploma.png'
 
 const Qualification = () => {
   return (
-    <div className='py-20'>
+    <div className='py-16'>
         <div>
             <h2 className='text-5xl font-semibold text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400  to-sky-900 uppercase'>Educational Qualifications</h2>
             <p className='max-w-3xl mx-auto text-center text-white mt-6 leading-7'>My educational background reflects a commitment to growth and learning, building a strong foundation for future opportunities. This journey has equipped me with knowledge, skills, and the drive to excel.</p>
