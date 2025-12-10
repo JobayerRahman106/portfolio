@@ -5,6 +5,7 @@ import Banner from '../section/Banner'
 import About from '../section/About'
 import Skill from '../section/Skill'
 import Qualification from '../section/Qualification'
+import Contact from '../section/Contact'
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <About/>
       <Skill/>
       <Qualification/>
+      <Contact/>
     </>
   )
 }
