@@ -3,7 +3,7 @@ import AboutImg from '../assets/image/about.png'
 
 const About = () => {
   return (
-    <div className='flex flex-col lg:flex-row justify-between items-center mt-16 px-4 lg:mt-24 lg:py-20'>
+    <div className='flex flex-col-reverse lg:flex-row justify-between items-center mt-16 px-4 lg:mt-24 lg:py-20'>
         <div >
             <img className=' w-sm lg:w-xs mx-auto rounded-xl ' src={AboutImg} alt="aboutimg" />
         </div>
