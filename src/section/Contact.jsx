@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <div className='px-10 py-10'>
-      <h2 className='text-5xl font-semibold text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400  to-sky-900 text-transform: uppercase'>Contact Me</h2>
+      <h2 className=' text-4xl lg:text-5xl font-semibold text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400  to-sky-900 text-transform: uppercase'>Contact Me</h2>
 
-      <div className='grid grid-cols-3 mt-12 gap-6'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 mt-12 gap-6'>
         <div className='border  p-12 border-none  bg-[#232b36]'>
           <div className="flex flex-col items-center ">
             <img className='w-10' src={PhoneImg} alt="PhoneImg" />
@@ -34,7 +34,7 @@ const Contact = () => {
       </div>
 
       <form>
-        <div className='grid grid-cols-2 mt-12 gap-6'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 mt-12 gap-6'>
           <div className='space-y-6'>
             <div className='flex flex-col'>
               <label className='flex items-center gap-4'>
@@ -59,7 +59,7 @@ const Contact = () => {
         </div>
 
         <div className='flex items-center justify-end mt-8'> 
-            <button className='border-none py-2 px-6 text-white bg-linear-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Send Message</button> 
+            <button className='border-none py-1 px-3 lg:py-2 lg:px-6 text-white bg-linear-to-r from-green-400 to-teal-700 hover:bg-gradient-to-l cursor-pointer'>Send Message</button> 
         </div>
       </form>
 
