@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
        <div className='flex flex-col lg:flex-row gap-4 justify-between items-center pt-5 lg:py-12 '>
       <div >
-        <ul className='flex gap-3 lg:gap-4 items-center text-white font-medium'>
+        <ul className='flex gap-3 lg:gap-4 items-center text-white text-sm lg:font-medium'>
           <Link to="#"> Home </Link>
           <Link to="#"> Services </Link>
           <Link to="#"> About </Link>

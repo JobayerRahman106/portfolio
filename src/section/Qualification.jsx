@@ -7,7 +7,7 @@ const Qualification = () => {
     <div className='py-16'>
         <div>
             <h2 className='text-3xl leading-12 lg:text-5xl font-semibold text-center text-transparent bg-clip-text bg-linear-to-r from-sky-400  to-sky-900 uppercase'>Educational Qualifications</h2>
-            <p className='px-4 max-w-3xl mx-auto  text-white mt-6 leading-7 text-base text-justify lg:text-center'>I’m currently studying Computer Science & Engineering (CSE) , where I'm developing a solid base in programming, problem-solving, and modern technologies. My academic journey inspires me to keep learning, improving, and preparing for exciting opportunities in the tech world.</p>
+            <p className='px-4 max-w-3xl mx-auto  text-white mt-6 leading-7 text-sm lg:text-base text-justify lg:text-center'>I’m currently studying Computer Science & Engineering (CSE) , where I'm developing a solid base in programming, problem-solving, and modern technologies. My academic journey inspires me to keep learning, improving, and preparing for exciting opportunities in the tech world.</p>
         </div>
 
 
